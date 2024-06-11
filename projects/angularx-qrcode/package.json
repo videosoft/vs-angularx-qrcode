@@ -1,5 +1,5 @@
 {
-  "name": "vs-angularx-qrcode",
+  "name": "@videosoft/vs-angularx-qrcode",
   "version": "18.0.1",
   "author": {
     "name": "Andreas Jacob <andreas@cordobo.de>",
@@ -17,7 +17,7 @@
     "@types/qrcode": "1.5.5"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/videosoft"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",

@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "vs-angularx-qrcode",
+  "name": "@videosoft/vs-angularx-qrcode",
   "version": "18.0.1",
   "main": "dist/angularx-qrcode/bundles/angularx-qrcode.umd.js",
   "author": {
@@ -122,7 +122,7 @@
     "qr-code"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/videosoft"
+    "registry": "https://npm.pkg.github.com"
   },
   "repository": {
     "type": "git",
