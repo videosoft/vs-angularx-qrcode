@@ -5,7 +5,12 @@ name: Node.js Package
 
 #Testing action
 on:  
-  workflow_dispatch
+  pull_request:
+    branches:
+      - prod/*
+  push:
+    branches:
+      - prod/*
       
 jobs:
 
