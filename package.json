@@ -122,7 +122,7 @@
     "qr-code"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/videosoft"
   },
   "repository": {
     "type": "git",
