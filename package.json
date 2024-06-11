@@ -60,7 +60,7 @@
     "@types/qrcode": "1.5.5",
     "@typescript-eslint/eslint-plugin": "^7.12.0",
     "@typescript-eslint/parser": "^7.12.0",
-    "eslint": "^8.53.0",
+    "eslint": "^8.57.0",
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "48.2.9",
     "eslint-plugin-prefer-arrow": "latest",
