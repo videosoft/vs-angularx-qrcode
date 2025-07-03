@@ -1,0 +1,15 @@
+apiVersion: ifood/v2.1
+kind: Repository
+tags:
+- webapp
+spec:
+  contents:
+  - name: vs-angular-qrcode
+    description: Lib Frontend for generate QrCode
+    type: service
+    ownerLayerSlug: tech-all-in-one
+    subType:
+    - webapp
+    impactLevel: 3
+    deployment:
+      type: k8s_helm
