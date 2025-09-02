@@ -3,10 +3,7 @@
   "name": "@videosoft/vs-angularx-qrcode",
   "version": "18.0.1",
   "main": "dist/angularx-qrcode/bundles/angularx-qrcode.umd.js",
-  "author": {
-    "name": "Andreas Jacob <andreas@cordobo.de>",
-    "url": "http://cordobo.com/"
-  },
+  "author": "iFood",
   "description": "Simple QRCode generator library for Angular4/5/6/7/8/9/10/11/12/13/14/15/16/17/18+ and Ionic 3/4/5/6/7/8 using node-qrcode",
   "license": "MIT",
   "scripts": {
@@ -78,7 +75,8 @@
     "rxjs": "^7.4.0",
     "tslib": "^2.6.3",
     "typescript": "~5.4.5",
-    "zone.js": "~0.14.7"
+    "zone.js": "~0.14.7",
+    "release-it": "^19.0.0"
   },
   "keywords": [
     "angularx-qrcode",
@@ -122,11 +120,11 @@
     "qr-code"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "registry": "https://nexus.dc.ifood.com.br/repository/ifood-npm-private/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/videosoft/vs-angularx-qrcode.git"
+    "url": "git+https://code.ifoodcorp.com.br/ifood/ifood-salao/totem/vs-angular-qrcode.git"
   },
   "bugs": {
     "url": "https://github.com/cordobo/angularx-qrcode/issues"

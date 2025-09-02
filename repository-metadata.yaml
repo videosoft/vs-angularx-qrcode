@@ -6,10 +6,13 @@ spec:
   contents:
     - name: vs-angular-qrcode
       description: Lib Frontend for generate QrCode
-      type: service
+      type: library
       ownerLayerSlug: op-om-totem
       subType:
         - webapp
-      impactLevel: 3
+      impactLevel: 2
       deployment:
-        type: k8s_helm
+        type: static
+      certifications:
+        - name: irc-mtdt
+          version: v2.5
