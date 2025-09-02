@@ -7,3 +7,4 @@ include:
 variables:
   DEFAULT_BUMP_TYPE: "patch"
   SERVICE_NAME: "vs-angular-qrcode"
+  NODE_VERSION: "20"
