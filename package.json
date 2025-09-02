@@ -17,6 +17,7 @@
     "start:server": "lite-server --baseDir=\"dist/demo-app\"",
     "prepare:build": "rimraf .angular dist tmp && cp ./README.md ./LICENSE projects/angularx-qrcode/",
     "build": "yarn run prepare:build && ng build --project angularx-qrcode --configuration production",
+    "build:sandbox": "yarn build",
     "build:demo": "ng build --project demo-app",
     "publish": "rm -rf node_modules && yarn install && yarn run build && cd dist/angularx-qrcode && npm publish && cd ../../",
     "ci:build:lib": "ng build --project angularx-qrcode --configuration production",
@@ -71,12 +72,12 @@
     "ng-packagr": "~18.0.0",
     "ngx-color-picker": "16.0.0",
     "prettier": "3.3.1",
+    "release-it": "^19.0.0",
     "rimraf": "5.0.7",
     "rxjs": "^7.4.0",
     "tslib": "^2.6.3",
     "typescript": "~5.4.5",
-    "zone.js": "~0.14.7",
-    "release-it": "^19.0.0"
+    "zone.js": "~0.14.7"
   },
   "keywords": [
     "angularx-qrcode",
@@ -129,5 +130,6 @@
   "bugs": {
     "url": "https://github.com/cordobo/angularx-qrcode/issues"
   },
-  "homepage": "https://github.com/cordobo/angularx-qrcode#readme"
+  "homepage": "https://github.com/cordobo/angularx-qrcode#readme",
+  "packageManager": "yarn@4.9.4"
 }
