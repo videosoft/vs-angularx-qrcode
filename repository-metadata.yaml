@@ -16,3 +16,6 @@ spec:
       certifications:
         - name: irc-mtdt
           version: v2.5
+        - name: irc-watch
+          version: NOT_APPLICABLE
+
