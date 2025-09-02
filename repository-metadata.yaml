@@ -6,7 +6,7 @@ spec:
   contents:
     - name: vs-angular-qrcode
       description: Lib Frontend for generate QrCode
-      type: library
+      type: service
       ownerLayerSlug: op-om-totem
       subType:
         - webapp
