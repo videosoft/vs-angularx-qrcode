@@ -24,14 +24,7 @@
           },
           "defaultConfiguration": "production"
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/angularx-qrcode/src/test.ts",
-            "tsConfig": "projects/angularx-qrcode/tsconfig.spec.json",
-            "karmaConfig": "projects/angularx-qrcode/karma.conf.js"
-          }
-        },
+        
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
@@ -124,24 +117,7 @@
             "buildTarget": "demo-app:build"
           }
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "main": "projects/demo-app/src/test.ts",
-            "polyfills": "projects/demo-app/src/polyfills.ts",
-            "tsConfig": "projects/demo-app/tsconfig.spec.json",
-            "karmaConfig": "projects/demo-app/karma.conf.js",
-            "assets": [
-              "projects/demo-app/src/favicon.ico",
-              "projects/demo-app/src/assets"
-            ],
-            "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "projects/demo-app/src/styles.css"
-            ],
-            "scripts": []
-          }
-        },
+        
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {

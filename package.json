@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
-  "name": "@videosoft/vs-angularx-qrcode",
+  "name": "@ifood/vs-angularx-qrcode",
   "version": "18.0.1",
   "main": "dist/angularx-qrcode/bundles/angularx-qrcode.umd.js",
   "author": "iFood",
@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "ng lint",
     "ng": "ng",
-    "test": "ng test --code-coverage",
+    "test": "jest",
     "watch": "ng build --project angularx-qrcode --watch --configuration development",
     "start": "ng serve demo-app --open",
     "start:dev": "yarn run build && yarn run build:demo -- --configuration development && yarn run start:server",
@@ -23,7 +23,7 @@
     "ci:build:lib": "ng build --project angularx-qrcode --configuration production",
     "ci:build:app": "ng build --project demo-app --configuration production --base-href=/angularx-qrcode/",
     "ci:lint": "ng lint",
-    "ci:test": "ng test --code-coverage",
+    "ci:test": "jest --coverage",
     "format": "prettier --write ."
   },
   "dependencies": {
@@ -54,6 +54,7 @@
     "@angular/router": "~18.0.2",
     "@babel/core": "^7.24.7",
     "@types/jasmine": "~5.1.2",
+    "@types/jest": "^29.5.3",
     "@types/node": "^20.14.2",
     "@types/qrcode": "1.5.5",
     "@typescript-eslint/eslint-plugin": "^7.12.0",
@@ -62,12 +63,8 @@
     "eslint-plugin-import": "2.29.1",
     "eslint-plugin-jsdoc": "48.2.9",
     "eslint-plugin-prefer-arrow": "latest",
-    "jasmine-core": "^5.1.2",
-    "karma": "6.4.3",
-    "karma-chrome-launcher": "~3.2.0",
-    "karma-coverage": "~2.2.1",
-    "karma-jasmine": "~5.1.0",
-    "karma-jasmine-html-reporter": "~2.1.0",
+    "jest": "^29.6.1",
+    "jest-preset-angular": "^13.1.1",
     "lite-server": "2.6.1",
     "ng-packagr": "~18.0.0",
     "ngx-color-picker": "16.0.0",
@@ -75,6 +72,7 @@
     "release-it": "^19.0.0",
     "rimraf": "5.0.7",
     "rxjs": "^7.4.0",
+    "ts-jest": "^29.1.0",
     "tslib": "^2.6.3",
     "typescript": "~5.4.5",
     "zone.js": "~0.14.7"
