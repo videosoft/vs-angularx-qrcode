@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "ng lint",
     "ng": "ng",
-    "test": "ng test",
+    "test": "ng test --code-coverage",
     "watch": "ng build --project angularx-qrcode --watch --configuration development",
     "start": "ng serve demo-app --open",
     "start:dev": "yarn run build && yarn run build:demo -- --configuration development && yarn run start:server",
