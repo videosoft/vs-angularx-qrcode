@@ -13,7 +13,7 @@ spec:
         - webapp
       impactLevel: 2
       deployment:
-        type: k8s_helm
+        type: static
       certifications:
         - name: irc-mtdt
           version: v2.5
