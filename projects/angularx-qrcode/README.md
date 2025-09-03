@@ -27,32 +27,24 @@
 **Angular 18 and Ionic with angularx-qrcode 18**
 
 ```
-npm install angularx-qrcode --save
-# Or with yarn
 yarn add angularx-qrcode
 ```
 
 **Angular 17 and Ionic with angularx-qrcode 17**
 
 ```
-npm install angularx-qrcode@17.0.1 --save
-# Or with yarn
 yarn add angularx-qrcode@17.0.1
 ```
 
 **Angular 16 and Ionic with angularx-qrcode 16**
 
 ```
-npm install angularx-qrcode@16.0.2 --save
-# Or with yarn
 yarn add angularx-qrcode@16.0.2
 ```
 
 **Angular 15 and Ionic with angularx-qrcode 15**
 
 ```
-npm install angularx-qrcode@15.0.1 --save
-# Or with yarn
 yarn add angularx-qrcode@15.0.1
 ```
 
@@ -60,23 +52,23 @@ yarn add angularx-qrcode@15.0.1
 
 ```
 # angular 14 and Ionic
-npm install angularx-qrcode@14.0.0 --save
+yarn add angularx-qrcode@14.0.0
 # angular 13 and Ionic
-npm install angularx-qrcode@13.0.15 --save
+yarn add angularx-qrcode@13.0.15
 # angular 12 and Ionic
-npm install angularx-qrcode@12.0.3 --save
+yarn add angularx-qrcode@12.0.3
 # angular 11 and Ionic
-npm install angularx-qrcode@11.0.0 --save
+yarn add angularx-qrcode@11.0.0
 # angular 10 and Ionic
-npm install angularx-qrcode@10.0.12 --save
+yarn add angularx-qrcode@10.0.12
 # angular 9 and Ionic
-npm install angularx-qrcode@~2.3.7 --save
+yarn add angularx-qrcode@~2.3.7
 # angular 8 and Ionic
-npm install angularx-qrcode@~2.1.4 --save
+yarn add angularx-qrcode@~2.1.4
 # angular 5/6/7
-npm install angularx-qrcode@1.6.4 --save
+yarn add angularx-qrcode@1.6.4
 # Angular 4
-npm install angularx-qrcode@1.0.3 --save
+yarn add angularx-qrcode@1.0.3
 ```
 
 # Demo App
@@ -86,7 +78,7 @@ npm install angularx-qrcode@1.0.3 --save
 The source for the demo angular app is available in [`projects/demo-app`](projects/demo-app). Run the command
 
 ```
-npm start
+yarn start
 ```
 
 and open the url `http://localhost:4200/` in your browser
