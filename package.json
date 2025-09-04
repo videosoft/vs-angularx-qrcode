@@ -130,5 +130,8 @@
     "url": "https://github.com/cordobo/angularx-qrcode/issues"
   },
   "homepage": "https://github.com/cordobo/angularx-qrcode#readme",
-  "packageManager": "yarn@4.9.4"
+  "packageManager": "yarn@4.9.4",
+  "engines": {
+    "node": ">=22.0.0 <23.0.0"
+  }
 }
