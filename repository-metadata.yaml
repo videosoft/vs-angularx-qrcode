@@ -1,15 +1,15 @@
 apiVersion: ifood/v2.5
 kind: Repository
 tags:
-  - webapp
+  - npm
 spec:
   contents:
     - name: vs-angular-qrcode
       description: Lib Frontend for generate QrCode
-      type: service
+      type: library
       ownerLayerSlug: op-om-totem
       subType:
-        - webapp
+        - npm
       impactLevel: 3
       deployment:
         type: k8s_helm
