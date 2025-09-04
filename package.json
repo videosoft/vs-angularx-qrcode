@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "ng lint",
     "ng": "ng",
-    "test": "jest",
+    "test": "ng test",
     "watch": "ng build --project angularx-qrcode --watch --configuration development",
     "start": "ng serve demo-app --open",
     "start:dev": "yarn run build && yarn run build:demo -- --configuration development && yarn run start:server",
@@ -23,7 +23,7 @@
     "ci:build:lib": "ng build --project angularx-qrcode --configuration production",
     "ci:build:app": "ng build --project demo-app --configuration production --base-href=/angularx-qrcode/",
     "ci:lint": "ng lint",
-    "ci:test": "jest --coverage",
+    "ci:test": "ng test",
     "format": "prettier --write ."
   },
   "dependencies": {
