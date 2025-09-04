@@ -10,13 +10,10 @@ spec:
       type: library
       ownerLayerSlug: op-om-totem
       subType:
-        - webapp
+        - npm
       impactLevel: 2
       deployment:
         type: static
       certifications:
         - name: irc-mtdt
           version: v2.5
-        - name: irc-watch
-          version: NOT_APPLICABLE
-
